@@ -1,6 +1,8 @@
 # shivchauhan795/auth-frontend
 This package includes React components for authentication (login, register) and integrates Tailwind CSS.
 
+Contribute in the Repo: https://github.com/shivchauhan795/auth-frontend
+
 ## Installation
 
 1. Install the package:
