@@ -1,7 +1,11 @@
 {
   "name": "@shivchauhan795/auth-frontend",
   "version": "1.1.0",
-  "git repository": "https://github.com/shivchauhan/auth-frontend.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivchauhan795/auth-frontend.git"
+  },
+  "homepage": "https://www.npmjs.com/package/@shivchauhan795/auth-frontend",
   "keywords": [
     "auth",
     "auth-frontend",
