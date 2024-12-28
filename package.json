@@ -1,7 +1,6 @@
 {
-  "name": "auth-frontend",
+  "name": "@shivchauhan795/auth-frontend",
   "version": "1.0.0",
-  "private": true,
   "git repository": "https://github.com/shivchauhan/auth-frontend.git",
   "keywords": [
     "auth",
@@ -19,7 +18,9 @@
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.2",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -46,5 +47,16 @@
       "last 1 safari version"
     ]
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  },
+  "exports": {
+    "./register": "./src/components/Register.jsx",
+    "./login": "./src/components/Login.jsx",
+    "./index": "./dist/index.css"
+  }
 }
